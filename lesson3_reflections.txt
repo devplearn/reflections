@@ -4,4 +4,13 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-   it's not a good idea (effecient) to have every commit synced cause. Better to batch it up 
+   it's not a good idea (effecient) to have every commit synced cause. Better to batch it up
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	forks copy of existing repository on github which also gives credit to the 
+	initial person. This way we can make changes to our version without affecting the 
+	main persons contribution
+	clones  copy of existing repository from github to local  or local to local
+	but cant update origin unless you have permission
+	branches this is within a repository
+
