@@ -12,14 +12,38 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	if many files have changes then add only the file that you need to 
+	move to repository by adding only that file to staging area.
+	that will make sure that only that file/s (in staging area) gets 
+	committed
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	branches help when you want to have many versions like lite version, 
+	advanced version, demo version etc.
+	branches help in keep track of these individual version changes
+	without having to copy the whole project as a new project in git. Saves
+	lot of time and effort and keep it more organized
 
 How do the diagrams help you visualize the branch structure?
+	the diagram gives a clear visibility of what changes were made with respect 
+	to the branches and what commit was not part of any branch (which will
+	get lost if not created in it's own branch).Also HEAD concept is now more 
+	clear
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Initially the merge failed. After research and with notes provided and 
+	checking on forums I found that there were tabs added instead of space
+	so the merge failed cause of conflict. once conflict was fixed I was able
+	to merge. git merged the changes of coins and master which is great.
+	It's represented that way because we will know the exact path where each
+	commit came from. a visual representation of the merge
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	pros:- when the code has not changed drastically with same part of the code 		then automatic merge saves a lot of time where new functions additions can be
+	easily be merged
+	cons:- but if as explained in the example where a function was created
+	to make it more effecient then manual merge is better cause we know
+	our content more than the machine/tool
